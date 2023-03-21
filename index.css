@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+#modalebox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 80px 60px;
+    font-size: 18px;
+    font-weight: 300;
+    background: blue ;opacity: 80%;
+    border-radius: 10px;
+    display: none;
+    z-index: 1100;
+}
+#modalebox h3{
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+#modalebox p{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: white;
+}
+.cookies{
+    
+    width: 300px;
+    margin-bottom: 15px;
+}
+.close-icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.navbar-nav .nav-link:hover{
+    color: white;
+    border-bottom : 2px solid yellow;
+
+}
+ .navbar .navbar-brand img{
+     height: auto;
+     width: 100px;
+     margin-top: 20px;
+    }
+    .bg-dark{
+        background-color: white !important;
+    }
+    .dropdown-menu li a{
+        font-family: sans-serif;
+    }
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+.content{
+    text-align: center;
+}
+.content h1{
+    position: relative;
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color:#007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background:#95ecd8 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.background-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media(min-aspect-ratio:16/9){
+    .background-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .background-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.parent{
+    margin-top: 1px;
+    height: 100vh;
+    background-image: url(pexels-juan-salamanca-61129.jpg);
+    background-image:linear-gradient(to bottom, rgba(199, 155, 155, 0.52), rgba(125, 159, 223, 0.73)), url('pexels-juan-salamanca-61129.jpg');
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: auto;
+    gap: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+    
+}
+@media(max-aspect-ratio:16/9){
+    .parent{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .parent{
+        width: auto;
+        height: 100;
+    }
+}
+.child-1{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(202, 103, 120);
+    background-repeat: no-repeat;
+
+}
+.child-2{
+    height: 400px;
+    width:500px;
+    background-color: rgb(104, 168, 189);
+   
+}
+.child-1 h2{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: center;
+    justify-items: center;
+}
+.child-2 h2{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
+.child-1 p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 20px 20px;
+    color: black;
+    font-family: sans-serif;
+}
+.child-2 p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 20px 20px;
+    color: black;
+    font-family: sans-serif;
+}
+.child-2 button {
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 180px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color:  rgb(104, 168, 189);
+    border: 1px solid black;
+    transition: 0.5s;
+
+}
+.child-2 button:hover{
+  
+    background-color:  rgb(202, 103, 120);
+}
+.about-rides{
+    margin-top: 1px;
+    height: 100vh;
+   background-clip: url(img\ 2.jpg);
+    background-image:linear-gradient(to bottom, rgba(10, 1, 1, 0.52), rgba(7, 1, 1, 0.73)), url('img\ 2.jpg');
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+}
+@media(max-aspect-ratio:16/9){
+    .about-rides{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .about-rides{
+        width: auto;
+        height: 100;
+    }
+}
+
+.adults-ride{
+    height: 400px;
+    width: 400px;
+    color: white;
+    text-align: right;
+   
+    
+}
+.kids-ride{
+    height: 400px;
+    width: 400px;
+    color: white;
+
+}
+.about-rides h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+}
+.about-rides h3{
+   font-family: sans-serif;
+   font-weight: 300;
+   font-size: 28px;
+}
+.about-rides p{
+    font-family: sans-serif;
+    font-size: 18px; 
+}
+
+
+
+

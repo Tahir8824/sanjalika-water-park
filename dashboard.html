@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+</head>
+<style>
+    body{
+        background-color: black !important;
+        color: white;
+    }
+</style>
+<body onload="onloaad()">
+    <h1 style="text-align: center;">dashboard</h1>
+    <label for="">Name</label>
+    <h3 id="usernaaame"></h3>
+
+    <div>
+        <h2>ticket</h2>
+        <h1 id="checkInn"></h1>
+        <h1 id="checkOuut"></h1>
+    </div>
+
+
+    <button onclick="logout()">logout</button>
+</body>
+<script>
+    function onloaad(){
+
+        var userDashboardName =  document.getElementById("usernaaame");
+        var localnaame = localStorage.getItem("username");
+        console.log(localnaame);
+        console.log(userDashboardName);
+        userDashboardName.innerText=localnaame;
+
+
+        var checkINN = document.getElementById("checkInn");
+        var checkOuut = document.getElementById("checkOuut");
+
+        checkINN.innerHTML = localStorage.getItem("checkIn");
+        checkOuut.innerHTML = localStorage.getItem("checkOut");
+
+
+        var checkIn = localStorage.getItem("checkIn");
+        var checkOut = localStorage.getItem("checkOut");
+
+
+
+    }
+    function logout(){
+        localStorage.removeItem("useremail");
+        localStorage.removeItem("username");
+        window.location.href="index.html"
+    }
+</script>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    body{
+    color: black;
+   }
+   .navbar-nav .nav-link{
+    color:white;
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.navbar-nav .nav-link:hover{
+    color: white;
+    border-bottom : 2px solid yellow;
+
+}
+ .navbar .navbar-brand img{
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
+}
+.bg-dark{
+    background-color: white !important;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+.dropdown-menu li a{
+    font-family: sans-serif;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+    .banner{
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner/slidebanner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+.slogan{
+
+    color: whitesmoke;
+    margin-top: 130px;
+    padding-left: 5%;
+}
+.slogan h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+.slogan h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(152, 173, 192);
+}
+</style>
+<body>
+
+     <!--navbar start-->
+
+     <nav class="navbar navbar-expand-lg bg-body-light bg-transparent fixed-top" style="height: 70px;">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="swp with rainbow logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="index.html">Home</a>
+              </li>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="index.html">Facilities</a>
+              </li>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Rides
+                </a>
+                <ul class="dropdown-menu">
+                 
+                  <li><a class="dropdown-item" href="ride.html">Rides</a></li>
+                  <li><a class="dropdown-item" href="play.html">Slides</a></li>
+                  <li><a class="dropdown-item" href="play.html">play</a></li>
+                              
+                </ul>
+              </li>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link "  href="booking.html">Booking</a>
+                </li>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="contact.html">Contact</a>
+              </li>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="lloggin.html">Login</a>
+              </li>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="siignupp.html">Signup</a>
+              </li>  
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="aboutus.html">About</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+       <!--navbar end-->
+
+
+    <div class="banner">
+        <img src="" alt="">
+        <div class="slogan">
+            <h4>OUR PRODUCTS</h4>
+            <br>
+            <h2>WATER SLIDES</h2>
+            <br>
+            <p>The Right Amount of Splash for Your Park</p>
+        </div>
+
+    </div>
+
+
+<style>
+    .row{
+        
+        gap: 20px;
+    display: flex;
+    margin-top: 5%;
+}
+.col-8{
+
+    padding-left: 3%;
+    width: 50%;
+    margin-bottom: 2%;
+    
+}
+.col-8 h1{
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+.col-8 p{
+    font-size: 23px;
+    text-align: justify;
+}
+.col-3 img{
+
+height: 500px;
+width: 100%;
+
+}
+</style>
+
+    <div class="slides">
+        <div class="row">
+            <div class="col-8">
+    
+            <h1>PYTHON</h1>
+
+            <p>At 6.1 meters (20 feet) in diameter, the Python’s curving flume offers a multitude of sensations with high banking oscillations and steep drops into the slide’s vast mega-tube.
+                <br>
+                <br>
+            With its impressive size, unique ride experience, and high throughput, the Python has been designed to be an anchor attraction. When combined with a flume-thru-flume configuration Python can help to elevate the ride experience of other slides on the same tower.</p>
+             </div> 
+     
+             <div class="col-1"></div>   
+     
+             <div class="col-3">
+                 <img src="slides/python.jpg" alt="">
+             </div>
+            </div>
+            <div class="row">
+           
+            <div class="col-3">
+                <img src="slides/freefall.jpg" alt="">
+            </div>
+            <div class="col-8">
+             <h1>FREEFALL</h1>
+             <p>Available in two options, the Freefall is an open water slide with a steep straight drop; while the Freefall Plus has an enclosed entrance to build anticipation before opening up and dropping straight down.
+                <br>
+                <br>
+                Either way, our Freefall attraction is an adrenaline rush from start to finish. Visible from a distance, guests will want to stop and watch as brave riders test their mettle. </p>
+             </div> 
+     
+            <div class="col-1"></div>              
+            </div>
+             <div class="row">
+            <div class="col-8">
+             <h1>AQUA</h1>
+             <p> Part of our AquaLaunch Series that features a launch capsule start with a trap door freefall drop, AquaDrop seems simple enough with its straight drop into a run out lane. It’s a different story however, once a guest is standing in the capsule, looking out at the height they’re about to free fall from.
+             <br>
+             <br>       
+            Available in open or enclosed, AquaDrop makes a great addition to municipal parks, resorts, and water parks.</p>
+            </div> 
+     
+            <div class="col-1"></div>   
+            
+             <div class="col-3">
+                 <img src="slides/aqua.jpg" alt="">
+             </div>
+            </div>
+            <div class="row">
+           
+            <div class="col-3">
+                <img src="slides/pendulum.jpg" alt="">
+            </div>
+            <div class="col-8">
+             <h1>PENDULUM</h1>
+             <p>PENDULUM combines two of our most iconic water slide experiences into one non-stop thrill ride of drops and uphill blasts.
+                <br>
+                <br>
+                Starting with a mega drop into the Master Blaster section of the slide, rafts are plunged down valleys and blasted up hills before transitioning to the Boomerango’s mega drop. Here, riders rush down into the final valley before racing up the Boomerango’s wall, then back and over a surprise hump for one last thrill.</p>
+              </div> 
+     
+            <div class="col-1"></div>              
+            </div>
+            <div class="row">
+            <div class="col-8">
+             <h1>RAINBOW</h1>
+             <p>Part multi-lane mat racer, part water coaster, RAINBOW is the world’s first uphill mat racing water slide combining headfirst sliding with ascending blasts.
+                <br>
+                <br>
+                A new take on a tried-and-true water park essential, RAINBOW can be customized to give your park a one-of-a-kind marquee ride. By adding our patented Smart Blast technology to save power, we’ve also combined energy efficiency with mat racing fun.</p>
+             </div> 
+     
+             <div class="col-1"></div>   
+     
+             <div class="col-3">
+                 <img src="slides/rainbow.jpg" alt="">
+             </div>
+            </div>
+            <div class="row">
+           
+            <div class="col-3">
+                <img src="slides/manta.jpg" alt="">
+            </div>
+            <div class="col-8">
+             <h1>MANTA</h1>
+             <p>Manta sends riders on a thrilling back and forth journey of ups and downs on its enormous wings. A visually-impressive slide, Manta can be customized to create a trademark attraction that is immediately recognizable by guests wherever they see its image.
+                <br>
+                <br>
+                By adding a sawtooth finish and striking fiberglass colour patterns, Manta’s exciting look and feel will generate long queue lines. Its thrilling ride experience that builds anticipation and delivers gravity-defying drops will keep guests coming back.</p>
+             </div> 
+     
+            <div class="col-1"></div>              
+            </div>
+
+
+            </div>    
+<!-- Footer -->
+<section id="footer">
+    <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+                <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                <li><a href="aboutus.html"><i class="fa fa-angle-double-right"></i>About</a></li>
+                <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                <li><a href="booking.html"><i class="fa fa-angle-double-right"></i>Booking</a></li>
+                <li><a href="Facilities.html" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Facilities</a></li>
+            </ul>
+        </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul class="list-unstyled quick-links">
+                  <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="aboutus.html"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                  <li><a href="booking.html"><i class="fa fa-angle-double-right"></i>Booking</a></li>
+                  <li><a href="Facilities.html" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Facilities</a></li>
+              </ul>
+          </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <h5>Quick links</h5>
+                <ul class="list-unstyled quick-links">
+                    <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                    <li><a href="aboutus.html"><i class="fa fa-angle-double-right"></i>About</a></li>
+                    <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                    <li><a href="booking.html"><i class="fa fa-angle-double-right"></i>Booking</a></li>
+                    <li><a href="Facilities.html" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Facilities</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-google"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>            
+        </div>	
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+                <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+            </div>
+            <hr>
+        </div>	
+    </div>
+  </section>
+  <!-- ./Footer -->
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+</html>
